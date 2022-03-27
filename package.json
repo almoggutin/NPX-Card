@@ -6,7 +6,7 @@
     "bin": "src/index.js",
     "repository": {
         "directory": "git",
-        "url": "git@github.com:almoggutin/npx-almog-gutin.git"
+        "url": "git@github.com:almoggutin/NPX-Card.git"
     },
     "scripts": {
         "test": "node src/index.js",
