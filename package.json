@@ -1,15 +1,28 @@
 {
     "name": "almog-gutin",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "description": "A cli npx business card for Almog Gutin",
+    "main": "src/index.js",
+    "bin": "src/index.js",
+    "repository": {
+        "directory": "git",
+        "url": "git@github.com:almoggutin/npx-almog-gutin.git"
+    },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "node src/index.js",
+        "publish-patch": "npm version patch & npm publish",
+        "publish-major": "npm version major & npm publish"
     },
     "type": "module",
-    "bin": "./src/index.js",
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "card",
+        "npm",
+        "npm card",
+        "npx",
+        "npx card",
+        "business card"
+    ],
+    "author": "Almog Gutin",
     "license": "ISC",
     "dependencies": {
         "axios": "^0.26.1",
